@@ -4,25 +4,126 @@
     "version": "9b7bf857"
   },
   "products": [
-    { "id": 1, "name": "Smartphone X1", "category": "electronics", "price": 29999.99, "stock": 10, "rating": 4.5 },
-    { "id": 2, "name": "Wireless Headphones", "category": "electronics", "price": 5999.95, "stock": 15, "rating": 4.3 },
-    { "id": 3, "name": "Bluetooth Speaker", "category": "electronics", "price": 3499.99, "stock": 20, "rating": 4.4 },
-
-    { "id": 4, "name": "Running Shoes", "category": "fashion", "price": 2499.50, "stock": 30, "rating": 4.2 },
-    { "id": 5, "name": "Leather Jacket", "category": "fashion", "price": 4999.00, "stock": 12, "rating": 4.6 },
-    { "id": 6, "name": "Wrist Watch", "category": "fashion", "price": 1999.75, "stock": 25, "rating": 4.1 },
-
-    { "id": 7, "name": "Coffee Maker", "category": "home", "price": 3499.99, "stock": 18, "rating": 4.4 },
-    { "id": 8, "name": "Vacuum Cleaner", "category": "home", "price": 7999.49, "stock": 8, "rating": 4.5 },
-    { "id": 9, "name": "Air Purifier", "category": "home", "price": 11999.00, "stock": 6, "rating": 4.7 },
-
-    { "id": 10, "name": "Gaming Keyboard", "category": "accessories", "price": 2499.99, "stock": 14, "rating": 4.3 },
-    { "id": 11, "name": "USB-C Hub", "category": "accessories", "price": 1499.99, "stock": 22, "rating": 4.2 },
-    { "id": 12, "name": "Laptop Stand", "category": "accessories", "price": 1299.00, "stock": 16, "rating": 4.4 },
-
-    { "id": 13, "name": "Office Chair", "category": "furniture", "price": 8999.99, "stock": 5, "rating": 4.6 },
-    { "id": 14, "name": "Study Table", "category": "furniture", "price": 10999.50, "stock": 4, "rating": 4.5 },
-    { "id": 15, "name": "Bookshelf", "category": "furniture", "price": 4999.75, "stock": 9, "rating": 4.3 }
+    {
+      "id": "prod-9b7bf857-001",
+      "name": "Elite Item 1",
+      "category": "sports",
+      "price": 467.87,
+      "stock": 157,
+      "rating": 2.1
+    },
+    {
+      "id": "prod-9b7bf857-002",
+      "name": "Pro Item 2",
+      "category": "home",
+      "price": 223.6,
+      "stock": 100,
+      "rating": 1.9
+    },
+    {
+      "id": "prod-9b7bf857-003",
+      "name": "Elite Item 3",
+      "category": "electronics",
+      "price": 493.26,
+      "stock": 61,
+      "rating": 1.9
+    },
+    {
+      "id": "prod-9b7bf857-004",
+      "name": "Elite Item 4",
+      "category": "books",
+      "price": 103.12,
+      "stock": 156,
+      "rating": 3.4
+    },
+    {
+      "id": "prod-9b7bf857-005",
+      "name": "Standard Item 5",
+      "category": "sports",
+      "price": 443.58,
+      "stock": 33,
+      "rating": 4.9
+    },
+    {
+      "id": "prod-9b7bf857-006",
+      "name": "Standard Item 6",
+      "category": "books",
+      "price": 269.58,
+      "stock": 2,
+      "rating": 2.1
+    },
+    {
+      "id": "prod-9b7bf857-007",
+      "name": "Elite Item 7",
+      "category": "electronics",
+      "price": 360.69,
+      "stock": 46,
+      "rating": 1.9
+    },
+    {
+      "id": "prod-9b7bf857-008",
+      "name": "Elite Item 8",
+      "category": "home",
+      "price": 163.97,
+      "stock": 183,
+      "rating": 2.3
+    },
+    {
+      "id": "prod-9b7bf857-009",
+      "name": "Elite Item 9",
+      "category": "home",
+      "price": 287.91,
+      "stock": 68,
+      "rating": 3
+    },
+    {
+      "id": "prod-9b7bf857-010",
+      "name": "Premium Item 10",
+      "category": "electronics",
+      "price": 439.78,
+      "stock": 67,
+      "rating": 3.4
+    },
+    {
+      "id": "prod-9b7bf857-011",
+      "name": "Basic Item 11",
+      "category": "books",
+      "price": 123.02,
+      "stock": 120,
+      "rating": 2.6
+    },
+    {
+      "id": "prod-9b7bf857-012",
+      "name": "Pro Item 12",
+      "category": "clothing",
+      "price": 119.31,
+      "stock": 191,
+      "rating": 2
+    },
+    {
+      "id": "prod-9b7bf857-013",
+      "name": "Premium Item 13",
+      "category": "books",
+      "price": 209.61,
+      "stock": 26,
+      "rating": 1.1
+    },
+    {
+      "id": "prod-9b7bf857-014",
+      "name": "Elite Item 14",
+      "category": "sports",
+      "price": 78.97,
+      "stock": 136,
+      "rating": 4.7
+    },
+    {
+      "id": "prod-9b7bf857-015",
+      "name": "Standard Item 15",
+      "category": "books",
+      "price": 165.71,
+      "stock": 33,
+      "rating": 4.1
+    }
   ],
   "aggregations": {
     "electronics": {
