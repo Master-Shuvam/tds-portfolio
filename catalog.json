@@ -1,0 +1,33 @@
+{
+  "metadata": {
+    "email": "23f3002495@ds.study.iitm.ac.in",
+    "version": "9b7bf857"
+  },
+  "products": [
+    { "id": 1, "name": "Smartphone X1", "category": "electronics", "price": 29999.99, "stock": 10, "rating": 4.5 },
+    { "id": 2, "name": "Wireless Headphones", "category": "electronics", "price": 5999.95, "stock": 15, "rating": 4.3 },
+    { "id": 3, "name": "Bluetooth Speaker", "category": "electronics", "price": 3499.99, "stock": 20, "rating": 4.4 },
+
+    { "id": 4, "name": "Running Shoes", "category": "fashion", "price": 2499.50, "stock": 30, "rating": 4.2 },
+    { "id": 5, "name": "Leather Jacket", "category": "fashion", "price": 4999.00, "stock": 12, "rating": 4.6 },
+    { "id": 6, "name": "Wrist Watch", "category": "fashion", "price": 1999.75, "stock": 25, "rating": 4.1 },
+
+    { "id": 7, "name": "Coffee Maker", "category": "home", "price": 3499.99, "stock": 18, "rating": 4.4 },
+    { "id": 8, "name": "Vacuum Cleaner", "category": "home", "price": 7999.49, "stock": 8, "rating": 4.5 },
+    { "id": 9, "name": "Air Purifier", "category": "home", "price": 11999.00, "stock": 6, "rating": 4.7 },
+
+    { "id": 10, "name": "Gaming Keyboard", "category": "accessories", "price": 2499.99, "stock": 14, "rating": 4.3 },
+    { "id": 11, "name": "USB-C Hub", "category": "accessories", "price": 1499.99, "stock": 22, "rating": 4.2 },
+    { "id": 12, "name": "Laptop Stand", "category": "accessories", "price": 1299.00, "stock": 16, "rating": 4.4 },
+
+    { "id": 13, "name": "Office Chair", "category": "furniture", "price": 8999.99, "stock": 5, "rating": 4.6 },
+    { "id": 14, "name": "Study Table", "category": "furniture", "price": 10999.50, "stock": 4, "rating": 4.5 },
+    { "id": 15, "name": "Bookshelf", "category": "furniture", "price": 4999.75, "stock": 9, "rating": 4.3 }
+  ],
+  "aggregations": {
+    "electronics": {
+      "count": 3,
+      "inventoryValue": 76145.86
+    }
+  }
+}
