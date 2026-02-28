@@ -13,7 +13,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: 23f3002495@ds.study.iitm.ac.in daily step
+      - name: 23f3002495@ds.study.iitm.ac.in
         run: echo "workflow running"
 
       - name: Create commit
