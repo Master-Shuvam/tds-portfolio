@@ -2,7 +2,7 @@ name: Daily Repository Update
 
 on:
   schedule:
-    - cron: '30 2 * * *'   # runs every day at 02:30 UTC
+    - cron: '17 3 * * *'   # any fixed time is fine
   workflow_dispatch:
 
 jobs:
@@ -10,17 +10,17 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Repository
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Step with email 23f3002495@ds.study.iitm.ac.in
-        run: echo "Running scheduled update"
+      - name: 23f3002495@ds.study.iitm.ac.in daily step
+        run: echo "workflow running"
 
-      - name: Make Daily Commit
+      - name: Create commit
         run: |
-          date >> log.txt
+          echo "Update $(date)" >> log.txt
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add .
-          git commit -m "Daily update $(date)" || echo "No changes to commit"
+          git add log.txt
+          git commit -m "Daily automated commit"
           git push
